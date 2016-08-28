@@ -11824,113 +11824,7 @@ a.anchor-link {
 
 <div class="reveal">
 <div class="slides">
-<section><section><script>
-  $(document).ready(function(){
-    $('div.prompt').hide();
-    $('div.back-to-top').hide();
-    $('nav#menubar').hide();
-    $('.breadcrumb').hide();
-    $('.hidden-print').hide();
-  });
-</script><aside class="notes">
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>set the stage - sklearn pipelines</li>
-<li>visually build up pipelines - legos</li>
-<li>implementing in code</li>
-<li>detailed what each piece is</li>
-<li>BACK WAY UP</li>
-<li>data science life cycle<ul>
-<li>development</li>
-<li>deployment </li>
-<li>Reality</li>
-</ul>
-</li>
-</ol>
-
-</div>
-</div>
-</div>
-</aside><aside class="notes">
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Building Blocks</p>
-<ul>
-<li>build up piece by piece</li>
-</ul>
-<p>Specefics</p>
-<ul>
-<li>what's a transformer</li>
-<li>estimator</li>
-<li>pipeline</li>
-</ul>
-
-</div>
-</div>
-</div>
-</aside><aside class="notes">
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>What about those other steps?</p>
-<ul>
-<li>I really only skipped feature unions</li>
-<li>If pipelines are vertial (and sequential) these are horizontal (and parallel)</li>
-<li>The output of each step of a feature union is merged up</li>
-<li>Example: Pipeline(Union(FactorExtractor('age') + FactorExtractor('gender')) -&gt; Logistic)</li>
-</ul>
-<p>Why use 'em? - Data Science Life Cycle</p>
-<ul>
-<li>Development and Deployment</li>
-</ul>
-<p>Ideal Development</p>
-<ul>
-<li>simple straight forward steps<ul>
-<li>data pull</li>
-<li>feature engineering<ul>
-<li>cross validate features as well as model</li>
-</ul>
-</li>
-<li>model selection</li>
-<li>model tuning</li>
-<li>testing and validation</li>
-<li>plays nice with the rest of sklearn</li>
-<li>easy to wrap non-sklearn objects</li>
-</ul>
-</li>
-</ul>
-<p>Realistic Development</p>
-<ul>
-<li>total creative chaos<ul>
-<li>cross validate features as well as model</li>
-</ul>
-</li>
-</ul>
-<p>Deployment</p>
-<ul>
-<li>simple straight forward</li>
-</ul>
-<p>Realistic Deployment</p>
-<ul>
-<li>rush, patches, folks on holiday</li>
-</ul>
-
-</div>
-</div>
-</div>
-</aside></section></section><section><section>
+<section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -14347,7 +14241,7 @@ CCMiIiIawf8BASiKvbDqhcIAAAAASUVORK5CYII=
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>[Parallel(n_jobs=1)]: Done   9 out of   9 | elapsed:    4.8s finished
+<pre>[Parallel(n_jobs=1)]: Done   9 out of   9 | elapsed:    5.2s finished
 </pre>
 </div>
 </div>
